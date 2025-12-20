@@ -111,32 +111,7 @@ const reels = [
     userProfile:
       "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fG1vZGVsfGVufDB8fDB8fHww",
   },
-  // {
-  //   username: "robert_miles",
-  //   likeCount: 65,
-  //   isLiked: false,
-  //   commentCount: 4,
-  //   shareCount: 0,
-  //   isFollowed: false,
-  //   isMuted:true,
-  //   caption: "Fresh start.",
-  //   video: "https://www.pexels.com/download/video/33670184/",
-  //   userProfile:
-  //     "https://images.unsplash.com/photo-1530777780045-c11965d8f4c7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fG1hbGUlMjBtb2RlbHxlbnwwfHwwfHx8MA%3D%3D",
-  // },
-  // {
-  //   username: "nina_wells",
-  //   likeCount: 1020,
-  //   isLiked: true,
-  //   commentCount: 132,
-  //   shareCount: 40,
-  //   isFollowed: true,
-  //   isMuted:true,
-  //   caption: "Tennis Mode On 🎾",
-  //   video: "https://www.pexels.com/download/video/32041192/",
-  //   userProfile:
-  //     "https://plus.unsplash.com/premium_photo-1669704098876-2a38eb10e56a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzd8fG1vZGVsfGVufDB8fDB8fHww",
-  // },
+
 ];
 
 let allReels = document.querySelector(".all-reels");
