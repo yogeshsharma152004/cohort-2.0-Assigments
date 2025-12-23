@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+      
+}
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    
+    padding: 50px 100px; 
+    anchor-name: --some-anchore; 
+    color: white;
+   
+
+}
+/* body , h1{
+   color: white;
+   
+} */
+ body > div{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+  
+      
+} 
+
+ div > ul {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+ul > li{
+    font-size: 20px;
+    list-style: none;
+    font-weight: 600;
+    padding: 8px 15px;
+    text-align: center;
+
+    
+    
+    
+}
+li:hover{
+    anchor-name: --some-anchore;
+     
+}
+
+
+.anchore{
+    background-color:rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    position: absolute;
+    position-anchor: --some-anchore;
+    top: anchor(top);
+    bottom: anchor(bottom);
+    left: anchor(left);
+    right: anchor(right);
+    pointer-events: none;
+    transition: all 0.5s linear;
+    mix-blend-mode:difference;
+    
+ 
+}
+
+
+
+
+
+
+@property --rotate{
+   syntax: "<angle>";
+   initial-value: 0deg;
+   inherits: false;
+}
+
+@keyframes borderAnimate {
+    from{
+        --rotate:0deg;
+    }
+    to{
+    --rotate:360deg;
+    }
+}
+
+.box{
+    max-width: 300px;
+    padding-inline: 10px;
+    padding-bottom: 10px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 0 0px rgb(73, 255, 112);
+    border-radius: 15px;
+    background: 
+    linear-gradient( white) padding-box,
+    conic-gradient(from var(--rotate) ,white,white,rgb(73, 255, 112),white) border-box;
+    border: 0px solid rgba(15, 15, 15, 0);
+    animation: borderAnimate 6s infinite ;
+     animation-timing-function: linear;
+     animation-play-state: paused;
+     text-shadow: 0 0 0px rgb(73, 255, 112);
+     transition: all 0.3s linear;
+     
+}
+.box img{
+    width: 100%;
+    z-index: 9;
+}
+.box:hover{
+    
+    animation-play-state: running;
+    border-width: 5px ;
+     box-shadow: 0 0 50px rgb(73, 255, 112);
+     color: rgb(73, 255, 112);
+     text-shadow: 0 0 10px rgb(73, 255, 112);
+}
+
+

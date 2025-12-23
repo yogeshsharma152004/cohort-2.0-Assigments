@@ -34,34 +34,35 @@ body{
 
 .box{
     max-width: 300px;
-    padding-inline: 10px;
+    padding-inline: 40px;
     padding-bottom: 10px;
     color: whitesmoke;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    box-shadow: 0 0 0px rgb(255, 0, 162);
+    box-shadow: 0 0 0px rgb(255, 73, 73);
     border-radius: 15px;
     background: 
     linear-gradient( black) padding-box,
-    conic-gradient(from var(--rotate) ,black,black,rgb(255, 73, 188),black) border-box;
+    conic-gradient(from var(--rotate) ,black,black,rgb(255, 73, 73),black) border-box;
     border: 0px solid rgba(255, 255, 255, 0);
     animation: borderAnimate 6s infinite ;
      animation-timing-function: linear;
      animation-play-state: paused;
-     text-shadow: 0 0 0px rgb(255, 73, 188);
+     text-shadow: 0 0 0px rgb(255, 73, 73);
      transition: all 0.3s linear;
     
 }
 .box img{
     width: 100%;
+    
 }
 .box:hover{
     
     animation-play-state: running;
     border-width: 5px ;
-     box-shadow: 0 0 30px rgb(255, 0, 208);
-     color: rgb(255, 73, 188);
-     text-shadow: 0 0 10px rgb(255, 73, 188);
+     box-shadow: 0 0 30px rgb(255, 73, 73);
+     color: rgb(255, 73, 73);
+     text-shadow: 0 0 10px rgb(255, 73, 73);
 }
 
