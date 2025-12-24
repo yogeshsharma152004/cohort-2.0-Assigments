@@ -33,13 +33,15 @@ body{
 }
 
 .box{
-    max-width: 300px;
-    padding-inline: 40px;
+    max-width: 270px;
+    padding-inline: 25px;
     padding-bottom: 10px;
     color: whitesmoke;
+    justify-content: center;
+    text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
     box-shadow: 0 0 0px rgb(255, 73, 73);
     border-radius: 15px;
     background: 
@@ -51,12 +53,20 @@ body{
      animation-play-state: paused;
      text-shadow: 0 0 0px rgb(255, 73, 73);
      transition: all 0.3s linear;
+     
     
 }
 .box img{
     width: 100%;
     
 }
+.box h1{
+    white-space: nowrap;
+}
+.box p{
+    font-size: 15px;
+}
+
 .box:hover{
     
     animation-play-state: running;
