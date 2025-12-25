@@ -127,7 +127,7 @@ li:hover {
   color: orangered;
   text-shadow: 0 0 10px orangered;
 
-  anchor-name: --some-anchore;
+ 
 }
 .box-2 {
   box-shadow: 0 0 0px red;
@@ -153,7 +153,7 @@ li:hover {
   box-shadow: 0 0 50px red;
   color: red;
   text-shadow: 0 0 10px red;
-  anchor-name: --some-anchore;
+  
 }
 .box-3 {
   box-shadow: 0 0 0px rgb(41, 143, 183);
@@ -179,7 +179,7 @@ li:hover {
   box-shadow: 0 0 50px rgb(41, 143, 183);
   color: rgb(41, 143, 183);
   text-shadow: 0 0 10px rgb(41, 143, 183);
-  anchor-name: --some-anchore;
+ 
 }
 .cards {
   display: flex;
@@ -187,4 +187,13 @@ li:hover {
   justify-content: center;
   gap: 100px;
   padding-top: 100px;
+}
+
+.box:hover{
+  transform: scale(1.1) !important;
+   anchor-name: --some-anchore;
+}
+
+.cards:has(.box:hover) .box{
+  transform: scale(0.8);
 }
