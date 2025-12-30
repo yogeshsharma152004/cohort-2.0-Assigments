@@ -46,9 +46,7 @@ link.addEventListener('click' , function(){
     window.open("https://www.linkedin.com/in/yogesh-sharma-4367b7388/")
 } )
 
-folder.addEventListener("click" , function(){
-    window.open("C:\Users\Admin")
-})
+
 
 git.addEventListener("click" , function(){
     window.open("https://github.com/yogeshsharma152004")
