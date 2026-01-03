@@ -9,11 +9,11 @@ let Main = () => {
         React.createElement("div" , {className:"main-center"},
          React.createElement("div" , {className:"top"} , 
             React.createElement("div" , {className:"top-left"},
-               React.createElement("h1" , null, "+200"),
+               React.createElement("h1" , null, "200+"),
                React.createElement("p" , null , "Project  Completed")
             ),
             React.createElement("div" , {className:"top-right"},
-               React.createElement("h1" , null, "+50"),
+               React.createElement("h1" , null, "50+"),
                React.createElement("p" , null , "Startup Raised")
             )
          ),
