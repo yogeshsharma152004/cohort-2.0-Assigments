@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: whitesmoke;
+  overflow: hidden;
+}
+#container {
+  height: 100%;
+  width: 100%;
+}
+
+#container nav {
+  width: 100%;
+  height: 10%;
+  padding: 1rem 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .left {
+  display: flex;
+}
+
+nav img {
+  width: 70px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+nav ul li {
+  list-style: none;
+  font-size: 20px;
+}
+nav ul li:hover {
+  text-decoration: underline;
+}
+nav .right {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+nav .right p {
+  text-decoration: underline;
+  font-size: 22px;
+  cursor: pointer;
+}
+nav .right i {
+  font-size: 25px;
+  font-weight: 200;
+}
+#container main {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  gap: 8rem;
+  padding: 3rem;
+}
+main .main-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+main .main-left h4 {
+  font-size: 20px;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  font-weight: 400;
+  color: rgb(152, 150, 150);
+}
+
+main .main-left .line {
+  width: 2px;
+  height: 300px;
+  background-color: rgb(155, 150, 150);
+}
+main .main-center {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+main .main-center .top {
+  display: flex;
+  align-items: flex-start;
+  gap: 3rem;
+  text-align: start;
+}
+
+main .main-center .top h1 {
+  font-size: 50px;
+  font-weight: 300;
+}
+
+main .main-center .center h1 {
+  font-size: 180px;
+  font-weight: 200;
+}
+main .main-center .center p {
+  font-size: 25px;
+  font-weight: 400;
+}
+main .main-center .bottom {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  margin-top: 4rem;
+  cursor: pointer;
+}
+main .main-center .bottom p {
+  font-size: 20px;
+}
+main .main-center .bottom i {
+  font-size: 25px;
+}
+main .main-center .bottom p:hover {
+  text-decoration: underline;
+}
+
+main .main-right {
+  width: 100%;
+  margin-left: 6rem;
+  position: relative;
+}
+main .main-right img {
+  width: 100%;
+  bottom: -75%;
+  right: 20%;
+  position: absolute;
+}
