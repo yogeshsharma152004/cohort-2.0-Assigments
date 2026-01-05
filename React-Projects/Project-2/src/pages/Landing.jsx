@@ -4,6 +4,7 @@ import Navbar from '../components/Nav'
 import About from '../components/About'
 import Features from '../components/Features'
 import States from '../components/States'
+import Services from '../components/Services'
 
 const Landing = () => {
   return (
@@ -13,6 +14,7 @@ const Landing = () => {
         <About/>
         <Features/>
         <States/>
+        <Services/>
     </div>
   )
 }

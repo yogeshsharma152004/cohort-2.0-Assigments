@@ -291,7 +291,7 @@ nav button i {
 .card-3 {
   display: flex;
   flex-direction: column;
-  background-color: #eaeffa;
+  background-color: #edf1f9;
   padding: 1.5rem 2.5rem;
   gap: 1rem;
 }
@@ -339,3 +339,179 @@ nav button i {
   border-radius: 50%;
   background-color: #1e90ff;
 }
+.states{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  padding: 1rem 0rem 3rem 0rem ;
+ 
+  border-bottom: 0.03rem solid rgba(151, 146, 146, 0.283);
+}
+.states .numbers{
+  display: flex;
+  gap: 8rem;
+  text-align: center;
+}
+.states h1{
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+.states .numbers > div h2{
+  font-size: 2.3rem;
+  font-weight: 400;
+}
+.states .numbers > div p{
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+.services{
+  padding: 4rem 6rem;
+}
+.service{
+  display: flex;
+  align-items: center;
+  gap: 7rem;
+}
+.services .service .card {
+  height: 17rem;
+  width: 22rem;
+  border-radius: 2rem;
+}
+.service .card1{
+  
+  display: flex;
+  flex-direction: column;
+ 
+  
+}
+.service .card1 p:nth-child(1){
+   font-size: 1.2rem;
+  font-weight: 400;
+  padding: 0.3rem 0.8rem;
+  cursor: pointer;
+  border: 0.05rem solid rgba(151, 146, 146, 0.644);
+  border-radius: 2rem;
+  width: fit-content;
+}
+.card1 p:nth-child(2){
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.card1 p:nth-child(3) {
+  background-color: black;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 300;
+  border: none;
+  cursor: pointer;
+  width: fit-content;
+  margin-top: 2.3rem;
+}
+.card1 p:nth-child(3) i {
+  font-size: 1.2rem;
+}
+.card2 {
+  overflow: hidden;
+  position: relative;
+}
+.card2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card2>p {
+ 
+  font-weight: 300;
+  position: absolute;
+  top: 6%;
+  left: 6%;
+  color: white;
+  white-space: nowrap;
+  background: linear-gradient(
+    to right,
+    rgba(255, 254, 254, 0.486),
+    rgba(255, 254, 254, 0)
+  );
+  backdrop-filter: blur(0.2rem);
+  padding: 0.6rem 1rem;
+  border-radius: 2rem;
+  border: 0.01rem solid rgba(255, 254, 254, 0.247);
+}
+.card2 .bottom {
+  position: absolute;
+  left: 6%;
+  bottom: 6%;
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+  
+} 
+.card2 .bottom p{
+  color: white;
+}
+.card2 .bottom i{
+  color: white;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  background-color: black;
+  border-radius: 50%;
+}
+.card3{
+  position: relative;
+}
+.card3 img{
+  width: 100%;
+  height: 55%;
+  object-fit: cover;
+  border-radius: 1rem;
+
+}
+.card3 .top{
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1rem 1.4rem;
+}
+.card3 .top p:nth-child(1){
+  font-weight: 300;
+  color: white;
+  width: fit-content;
+  background: linear-gradient(
+    to right,
+    rgba(255, 254, 254, 0.486),
+    rgba(255, 254, 254, 0)
+  );
+  backdrop-filter: blur(0.2rem);
+  padding: 0.6rem 1rem;
+  border-radius: 2rem;
+  border: 0.01rem solid rgba(255, 254, 254, 0.247);
+}
+.card3 .top p:nth-child(2){
+  color: white;
+  margin-top:4rem;
+}
+.card3 .bottom p{
+  margin-top: 0.3rem;
+}
+.card3 .bottom .arrow{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+
+}
+.card3 .bottom .arrow i{
+  font-size: 1.4rem;
+  padding: 0.3rem;
+  border: 0.01rem solid rgba(151, 147, 147, 0.607);
+  border-radius: 50%;
+}
+
+
+
